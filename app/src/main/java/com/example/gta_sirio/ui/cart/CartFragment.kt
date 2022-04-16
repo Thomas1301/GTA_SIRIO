@@ -10,7 +10,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.gta_sirio.databinding.FragmentCartBinding
 import com.example.gta_sirio.ui.cart.CartViewModel
-
+//
 class CartFragment : Fragment() {
     private lateinit var cartViewModel: CartViewModel
     private var _binding: FragmentCartBinding? = null
