@@ -6,16 +6,31 @@
     android:layout_height="wrap_content"
     android:padding="16dp"
     tools:context=".ui.search.SearchFragment">
-
-    <ImageView
+    <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/picture"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:layout_margin="5dp"
+        app:shapeAppearanceOverlay="@style/roundImageView"
         app:layout_constraintDimensionRatio="1:1"
         tools:ignore="MissingConstraints" />
+    
+<!--    Anciennement avant la mise en place des bords round sur les images (voir au dessus)-->
+<!--    <ImageView-->
+<!--        android:id="@+id/picture"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        -->
+<!--        app:layout_constraintDimensionRatio="1:1"-->
+<!--        tools:ignore="MissingConstraints" />-->
 
     <TextView
         android:id="@+id/productName"
