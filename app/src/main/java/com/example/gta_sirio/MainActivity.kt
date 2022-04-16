@@ -7,6 +7,7 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.gta_sirio.databinding.ActivityMainBinding
 import com.example.gta_sirio.model.Product
@@ -34,11 +35,11 @@ class MainActivity : AppCompatActivity() {
 
         val products = arrayListOf<Product>()
         for (i in 0..100){
-            products.add(Product("Produit test", "", 149.99))
+            products.add(Product("Produit test", "https://via.placeholder.com/200", 149.99))
         }
 
         binding.recycleView.apply {
-            layoutManager = LinearLayoutManager(this@MainActivity)
+            layoutManager = GridLayoutManager(this@MainActivity, 2)
             adapter = ProductsAdapter(products)
         }
     }
