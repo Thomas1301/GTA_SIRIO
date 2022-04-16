@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GTA_SIRIO</string>
+    <string name="title_home">Accueil</string>
+    <string name="title_search">Rechercher</string>
+    <string name="title_favorites">Favoris</string>
+    <string name="title_cart">Panier</string>
+    <string name="title_profile">Profil</string>
+    <string name="button_validate">Valider</string>
+    <string name="hint_search_product">Quel produit cherchez vous ?</string>
+</resources>
