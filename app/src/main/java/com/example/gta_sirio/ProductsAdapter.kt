@@ -12,9 +12,10 @@ import com.squareup.picasso.Picasso
 class ProductsAdapter(private val products: ArrayList<Product>) : RecyclerView.Adapter<ProductsAdapter.ViewHolder>(){
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-
-        Picasso.get().load(products[position].pictureUrl).into(holder.picture)
-        holder.productName.text = products[position].title
+        val product = products[position]
+        Picasso.get().load(product.pictureUrl).into(holder.picture)
+        holder.productName.text = product.title
+        holder.productPrice.text = product.price.toString()
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -26,9 +27,8 @@ class ProductsAdapter(private val products: ArrayList<Product>) : RecyclerView.A
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val picture: ImageView = itemView.findViewById(R.id.picture)
-
         val productName: TextView = itemView.findViewById(R.id.productName)
-
+        val productPrice: TextView = itemView.findViewById(R.id.productPrice)
     }
 
 
