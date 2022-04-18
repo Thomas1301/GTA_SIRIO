@@ -10,4 +10,5 @@ class SearchViewModel : ViewModel() {
         //value = "Bienvenue sur la page de recherche"
     }
     val text: LiveData<String> = _text
+
 }

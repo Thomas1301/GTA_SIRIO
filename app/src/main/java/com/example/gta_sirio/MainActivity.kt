@@ -31,7 +31,6 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
-
         val products = arrayListOf<Product>()
         for (i in 0..100){
             products.add(Product("Produit test", "https://via.placeholder.com/200", 149.99))

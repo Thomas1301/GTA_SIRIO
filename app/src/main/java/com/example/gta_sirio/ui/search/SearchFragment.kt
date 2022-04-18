@@ -4,11 +4,12 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.GridLayoutManager
+import com.example.gta_sirio.ProductsAdapter
 import com.example.gta_sirio.databinding.FragmentSearchBinding
+import com.example.gta_sirio.model.Product
 
 class SearchFragment : Fragment() {
 
@@ -31,6 +32,17 @@ class SearchFragment : Fragment() {
 //        searchViewModel.text.observe(viewLifecycleOwner, Observer {
 //            textView.text = it
 //        })
+
+//        val products = arrayListOf<Product>()
+//        for (i in 0..100){
+//            products.add(Product("Produit test", "https://via.placeholder.com/200", 149.99))
+//        }
+//
+//        binding.recycleView.apply {
+//            layoutManager = GridLayoutManager(this@SearchFragment, 2)
+//            adapter = ProductsAdapter(products)
+//        }
+
         return root
     }
 

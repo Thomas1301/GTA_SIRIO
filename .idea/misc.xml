@@ -7,6 +7,7 @@
         <entry key="..\:/Users/Thomas Duarte/Documents/SupDeVinci/Cours/Projet_Professionnel/GTA_SIRIO/app/src/main/res/drawable/ic_baseline_chair_24.xml" value="0.1" />
         <entry key="..\:/Users/Thomas Duarte/Documents/SupDeVinci/Cours/Projet_Professionnel/GTA_SIRIO/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1" />
         <entry key="..\:/Users/Thomas Duarte/Documents/SupDeVinci/Cours/Projet_Professionnel/GTA_SIRIO/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1" />
+        <entry key="..\:/Users/Thomas Duarte/Documents/SupDeVinci/Cours/Projet_Professionnel/GTA_SIRIO/app/src/main/res/drawable/ic_cart_black_24dp.xml" value="0.2885" />
         <entry key="..\:/Users/Thomas Duarte/Documents/SupDeVinci/Cours/Projet_Professionnel/GTA_SIRIO/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.17239583333333333" />
         <entry key="..\:/Users/Thomas Duarte/Documents/SupDeVinci/Cours/Projet_Professionnel/GTA_SIRIO/app/src/main/res/drawable/ic_favorites_black_24dp.xml" value="0.1" />
         <entry key="..\:/Users/Thomas Duarte/Documents/SupDeVinci/Cours/Projet_Professionnel/GTA_SIRIO/app/src/main/res/drawable/ic_launcher_background.xml" value="0.17239583333333333" />
@@ -23,7 +24,7 @@
         <entry key="..\:/Users/Thomas Duarte/Documents/SupDeVinci/Cours/Projet_Professionnel/GTA_SIRIO/app/src/main/res/layout/fragment_notifications.xml" value="0.15625" />
         <entry key="..\:/Users/Thomas Duarte/Documents/SupDeVinci/Cours/Projet_Professionnel/GTA_SIRIO/app/src/main/res/layout/fragment_products.xml" value="0.15625" />
         <entry key="..\:/Users/Thomas Duarte/Documents/SupDeVinci/Cours/Projet_Professionnel/GTA_SIRIO/app/src/main/res/layout/fragment_profile.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Thomas Duarte/Documents/SupDeVinci/Cours/Projet_Professionnel/GTA_SIRIO/app/src/main/res/layout/fragment_search.xml" value="0.19" />
+        <entry key="..\:/Users/Thomas Duarte/Documents/SupDeVinci/Cours/Projet_Professionnel/GTA_SIRIO/app/src/main/res/layout/fragment_search.xml" value="0.1" />
         <entry key="..\:/Users/Thomas Duarte/Documents/SupDeVinci/Cours/Projet_Professionnel/GTA_SIRIO/app/src/main/res/menu/bottom_nav_menu.xml" value="0.264" />
         <entry key="..\:/Users/Thomas Duarte/Documents/SupDeVinci/Cours/Projet_Professionnel/GTA_SIRIO/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.17239583333333333" />
         <entry key="..\:/Users/Thomas Duarte/Documents/SupDeVinci/Cours/Projet_Professionnel/GTA_SIRIO/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14635416666666667" />

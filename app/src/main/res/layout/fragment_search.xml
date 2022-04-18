@@ -6,6 +6,7 @@
     android:layout_height="wrap_content"
     android:padding="16dp"
     tools:context=".ui.search.SearchFragment">
+
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/picture"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -56,4 +57,13 @@
         android:textAlignment="center"
         tools:ignore="MissingConstraints" />
 
+  <!--  <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />-->
 </androidx.constraintlayout.widget.ConstraintLayout>
